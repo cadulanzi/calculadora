@@ -3,6 +3,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
+button{
+    border: none;
+}
+
 .index__container {
     background-color: #17181A;
     border-radius: 39px;

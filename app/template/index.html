@@ -11,9 +11,11 @@
 
 <body>
     <div class="index__container">
-        <div class="index__display_calc">
-            6000<em class="index__display_calc_sinal">/</em>2<em class="index__display_calc_sinal">+</em>32277<em
-                class="index__display_calc_sinal">*</em>2
+        <div class="index__display_calc ">
+            <p type="text" id="digitado"></p>
+            <!-- 6000<em class="index__display_calc_sinal">/</em>2<em class="index__display_calc_sinal">+</em>32277<em
+                class="index__display_calc_sinal">*</em>2 -->
+
         </div>
         <div class="index__display_result">
             =12,454
@@ -49,28 +51,39 @@
 
         </div>
         <div class="index__display_button_number">
-            <div class="index_display_sub_button_number">
-                <p>7</p>
+            <div>
+                <button type="button" class=" index_display_sub_button_number btnSete" ><p>7</p></button>
+                
             </div>
-            <div class="index_display_sub_button_number">
-                <p>8</p>
+            <div>
+                <button type="button" class=" index_display_sub_button_number btnOito">
+                    <p>8</p>
+                </button>
             </div>
-            <div class="index_display_sub_button_number">
-                <p>9</p>
+            <div>
+                <button type="button" class=" index_display_sub_button_number btnNove">
+                    <p>9</p>
+                </button>
             </div>
             <div id="index_display_sub_button_less">
                 <p>-</p>
             </div>
             </div>
             <div class="index__display_button_number1">
-                <div class="index_display_sub_button_number1">
+                <div>
+                <button type="button" class=" index_display_sub_button_number1 btnQuatro">
                     <p>4</p>
+                </button>
                 </div>
-                <div class="index_display_sub_button_number1">
-                    <p>5</p>
+                <div>
+                    <button type="button" class=" index_display_sub_button_number1 btnCinco">
+                        <p>5</p>
+                    </button>
                 </div>
-                <div class="index_display_sub_button_number1">
-                    <p>6</p>
+                <div>
+                    <button type="button" class=" index_display_sub_button_number1 btnSeis">
+                        <p>6</p>
+                    </button>
                 </div>
                 <div id="index_display_sub_button_more">
                     <p>+</p>
@@ -78,14 +91,20 @@
 
             </div>
             <div class="index__display_button_number2">
-                <div class="index_display_sub_button_number2">
-                    <p>1</p>
+                <div>
+                    <button type="button" class=" index_display_sub_button_number2 btnUm">
+                        <p>1</p>
+                    </button>
                 </div>
-                <div class="index_display_sub_button_number2">
-                    <p>2</p>
+                <div >
+                    <button type="button" class=" index_display_sub_button_number2 btnDois">
+                        <p>2</p>
+                    </button>
                 </div>
-                <div class="index_display_sub_button_number2">
-                    <p>3</p>
+                <div>
+                    <button type="button" class=" index_display_sub_button_number2 btnTres">
+                        <p>3</p>
+                    </button>
                 </div>
                 <div id="index_display_sub_button_equal">
                     <p>=</p>
@@ -93,7 +112,7 @@
             
             </div>
             <div class="index__display_button_number3">
-                <div id="index_display_sub_button_number3_1">
+                <div id="index_display_sub_button_number3_1" class="btnZero">
                     <p>0</p>
                 </div>
                 <div id="index_display_sub_button_number3_2">
